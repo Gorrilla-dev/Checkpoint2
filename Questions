@@ -1,0 +1,48 @@
+//Question 1 :
+FN=input("First Name : ")
+LN=input("Last Name:")
+print(LN,"",FN)
+//Question 2 :
+x=int(input("Number :"))
+y=x+(x*11)+(x*111)
+print(y)
+//or//
+x=int(input("Number :"))
+y=str(x)
+y1=y+y
+y2=y+y+y
+x1=int(y1)
+x2=int(y2)
+z=x+x1+x2
+print(z)
+//Question 3 :
+x=int(input("Number :"))
+if x%2==0:
+  print("this number is even")
+else
+  print("this number is odd")
+//Question 4:
+x=int(input("Year :"))
+if x%4==0:
+  print("it is a leap year")
+else:
+  print("it is not a leap year")
+//Question 5
+ch=input("Text :")
+y=""
+l=len(ch)
+for i in range(l):
+    if i%2==0:
+        y=y+ch[i]
+print(y)
+//Question 6
+x=int(input("Price:")
+if x>500:
+  x=x*0.5
+  print("Price after discount:",y)
+elif 200=<x<500:
+  y=x*0.7
+  print("Price after discount:",y)
+else:
+  y=x*0.9
+  print("Price after discount:",y)
